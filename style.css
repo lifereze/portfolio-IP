@@ -73,15 +73,18 @@ header .brand a{
     text-transform: uppercase;
     position: relative;
 }
-header .navbar{
-
-}
 .home{
     min-height: 100vh;
     background-image: url(images/background.jpg);
     background-size: cover;
     background-position: center;
     padding: 25px;
+}
+.profile_image{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    margin-right: 20px;
 }
 .home .full-screen{
     min-height: 100vh;
@@ -120,12 +123,6 @@ header .navbar{
     margin: 0 0 10px;
     padding: 0;
 }
-
-
-
-.home .container .full-screen .home-content .block .profile_image{
-
-}
 .home .home-content .block .cv-btn{
     padding-top: 20px;
 }
@@ -143,6 +140,48 @@ header .navbar{
     background-color: transparent;
 }
 .home .home-content .block .cv-btn a:hover{
-    background-color: #ffffff;
+    background-color: #4fb1df;
     color: #000000;
+}
+
+.About {
+    margin-left: 80px;
+    align-content: center;
+    float: inherit;
+    text-align: justify;
+    line-height: 40px;
+    padding: 100px;
+}
+h1{
+    color: #ffffff;
+    font-size: 50px;
+}
+h3{
+    color: rgb(10, 182, 87);
+    font-size: 20px;
+}
+p{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 300;
+}
+.Websites{
+    margin-left: 80px;
+    align-content: center;
+    float: inherit;
+    text-align: justify;
+    line-height: 40px;
+    padding: 100px;
+}
+.Hobbies{
+    margin-left: 80px;
+    align-content: center;
+    float: inherit;
+    text-align: justify;
+    line-height: 40px;
+    padding: 100px;
+}
+.content {
+    background-color: black;
+    opacity: 0.9;
 }
