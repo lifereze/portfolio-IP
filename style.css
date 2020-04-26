@@ -16,7 +16,7 @@ body{
     flex-wrap: wrap;
 }
 header{
-    position: absolute;
+    position: fixed;
     line-height: 30px;
     left: 0;
     right: 0;
