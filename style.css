@@ -20,6 +20,7 @@ header{
     line-height: 30px;
     left: 0;
     right: 0;
+    border-bottom: 1px solid #423940;
 }
 header .navbar ul{
     list-style: none;
@@ -33,15 +34,19 @@ header .navbar ul li{
 header .navbar ul li a{
     font-size: 15px;
     text-decoration: none;
+    line-height: 70px;
+    color: #ffffff;
+    font-weight: 600;
 }
 header .row{
     justify-content: space-between;
+    align-items: center;
 }
-header .brand{
-    background-color: blue;
+header .brand a{
+    text-decoration: none;
 }
 header .navbar{
-    background-color: red;
+
 }
 .home{
     min-height: 100vh;
