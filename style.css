@@ -47,6 +47,7 @@ header .brand a{
     font-size: 22px;
     font-weight: 600;
     color: #ffffff;
+    text-transform: uppercase;
 }
 header .navbar{
 
