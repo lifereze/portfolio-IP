@@ -44,6 +44,9 @@ header .row{
 }
 header .brand a{
     text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffffff;
 }
 header .navbar{
 
