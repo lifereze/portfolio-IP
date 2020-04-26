@@ -85,6 +85,7 @@ header .brand a{
     width: 150px;
     border-radius: 100%;
     margin-right: 20px;
+    float: left;
 }
 .home .full-screen{
     min-height: 100vh;
